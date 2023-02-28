@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    background-image: url(fondo_tecno1.webp);
+}
+
+#encabezado {
+    display: inline-block;
+    height: 65px;
+    font-family: 'Gajraj One', cursive;
+
+    color: rgb(3, 201, 250);
+    text-align: center;
+    margin-bottom: 10px;
+    background-image: linear-gradient(black, blue);
+    
+}
+
+#imagen{
+    background-image: linear-gradient(blue, black, white);
+    
+}
+
+img {
+    display: block;
+    margin: auto;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: turquoise;
+    border-width: 8px;
+    background-color: white;
+}
+
+#Menu {
+    background-image: linear-gradient(black, blue);
+    
+}
+
+#links-navegacion {
+    list-style-type: none;
+    margin-top: 15px;
+    padding: 0;
+    width: 336px;
+    height: 213px;
+    background-color: turquoise;
+    border: 2px solid white;
+    
+    
+}
+
+li a {
+    display: block;
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+    text-align: center;
+    border-bottom: 2px solid white;
+}
+  
+  /* Cambia el color cuando paso con el mouse */
+li a:hover {
+    background-color: blue;
+    color: white;
+}
+
+li:last-child {
+    border-bottom: none;
+  }
+
+#datos-personales {
+    
+    background-image: linear-gradient(blue,turquoise,white);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-style: solid;
+    border-color: darkblue;
+    border-width: 3px;
+    border-radius: 4%;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: black;
+}
+
+#experiencia-laboral {
+    background-image: linear-gradient(black, blue);
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    color: white;
+    border-radius: 4%;
+}
+
+#formacion-academica {
+    background-image: linear-gradient(turquoise,white);
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    color: black;
+    border-radius: 4%;
+}
+
+#conocimientos-adicionales {
+    background-image: linear-gradient(turquoise,white);
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: black;
+    border-radius: 4%;
+}
+
+#formulario-contacto {
+    background-image: linear-gradient(black, blue);
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: white;
+    border-radius: 4%;
+}
+
+#items-formulario {
+    list-style-type: none;
+    margin-top: 15px;
+    padding: 0;
+    width: 336px;
+    height: 165px;
+    background-color: turquoise;
+    border: 2px solid white;
+}
+
+footer{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    font-size: x-large;
+    text-align: center;
+}
+
+
